@@ -68,8 +68,8 @@ nav a {
  figure {
 	display: block;
 	text-align: center;
-	height: 350px;
-	background-color: #CCCBC6;
+	height: 200px;
+	background-color: #A9B7C0;
 	
 }
 
@@ -120,8 +120,8 @@ figure img.widepic {
 }
 
 figure img.normalpic {
-	width: 316px;
-	height: 156px;
+	width: 158px;
+	height: 78px;
 
 }
 
@@ -131,8 +131,8 @@ figure img.today {
 }
 
 figure img.longpic {
-	width: 316px;
-	height: 276px;
+	width: 158px;
+	height: 138px;
 
 }
 
@@ -205,7 +205,7 @@ header {
 }
 
 .imagecolumn {
-	width: 33%;
+	width: 20%;
 	float: left;
 	margin: 10px auto;
 	padding-top: 20px;
@@ -226,17 +226,16 @@ header {
 }
 
 #education:hover {
-	background-color: #F2BB66; 
-  }
+	background-color: #F2BB66;
+}
 
 #emphist:hover {
 	background-color: #57BC90; 
   }
 
  #projects {
-	  background-color: #CCCBC6;	 
+	  background-color: #A9B7C0;
  }
-
  
   figure img:hover {
 	  border: .3em solid #FFFF99;
@@ -246,14 +245,10 @@ header {
 	background-color: #000;
 }
 
-figure img:hover {
-	background-color: #000;
-
-}
   .projectsect {
-	background-color: #CCCBC6;
+	background-color: #A9B7C0;
 	clear: both;
-	height: 900px;
+	height: 200px;
 	width: 100%;
 	margin: 0px auto;
 	
