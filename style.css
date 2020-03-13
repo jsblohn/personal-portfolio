@@ -17,14 +17,10 @@ h1 {
 	font-weight: 500;
 }
 
-/*h2 {text-align: center;}*/
 h3 {width: 80%;}
 
 h2, h3 {
 	font-family: 'Open Sans', Verdana, Arial, sans-serif;
-	/*margin-left: auto;
-	margin-right: auto;
-	width: 85%;*/
 	text-align: center;
 }
 
@@ -37,11 +33,6 @@ table {
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 20px;
-}
-
-#dogs {
-	background-image: url("images/dog-background2.jpg");
-	background-color: #C7D8C6;
 }
 
 footer {
@@ -74,29 +65,13 @@ nav a {
 	margin-right: 20px;
 }
 
-/*figure {
+ figure {
 	display: block;
 	text-align: center;
-	height: 340px;
-}*/
-
-figure {
-	/*display: block;
-	text-align: center;*/
-	height: 340px;
+	height: 350px;
+	background-color: #CCCBC6;
+	
 }
-/*figure img.bannerImg{
-	display: block;
-	text-align: center;
-	height: 130px;
-}*/
-
-/*section img.bannerImg{
-	display: block;
-	text-align: center;
-	height: 130px;
-	background-color: #A5B9B9;
-}*/
 
 .yearcol {
 	width: 10%;
@@ -144,14 +119,21 @@ figure img.widepic {
 	height: 244px;
 }
 
+figure img.normalpic {
+	width: 316px;
+	height: 156px;
+
+}
+
 figure img.today {
 	width: 320px;
 	height: 180px;
 }
 
 figure img.longpic {
-	width: 240px;
-	height: 320px;
+	width: 316px;
+	height: 276px;
+
 }
 
 figure img.shoppic {
@@ -176,7 +158,8 @@ figcaption {
 
 figure img {
 	padding-top: 0px;
-	/*border: .2em solid #FFF;*/
+	border: .1em solid darkgray;
+	border-radius: 5px;
 }
 
 a {
@@ -216,43 +199,22 @@ header {
 	margin-top: 40px;
 	margin-bottom: 10px;
 	margin-left: 40px;
-	/*border-radius: 5px;*/
-	border-radius: 10px;
-	background-color: #A5B9B9;
-
-}
-
-.bannerImg2 {
-	width: 107px;
-	height: 120px;
-	float: left;
-	margin-top: 40px;
-	margin-bottom: 10px;
-	margin-left: 40px;
-	/*border-radius: 5px;*/
 	border-radius: 10px;
 	background-color: #A5B9B9;
 
 }
 
 .imagecolumn {
-	width: 24%;
+	width: 33%;
 	float: left;
 	margin: 10px auto;
-}
-
-.pgraphcolumn {
-	float: left;
-	width: 33%;
-	margin: 10px 5px;
+	padding-top: 20px;
 }
 
 .headerText {
 	float: right;
 	width: 80%;
 	margin-right: 20px;
-	/*margin: 10px 5px;*/
-	/*background-color: #A5B9B9;*/
 }
 
 #emphist {
@@ -262,36 +224,46 @@ header {
 #education {
 	background-color: #EFD9C1;
 }
-/*#education tbody tr:hover {*/
+
 #education:hover {
-	/*cursor: pointer;*/
-	background-color: #F2BB66; /*#D5D5D5; /*#ffff99;*/
+	background-color: #F2BB66; 
   }
 
 #emphist:hover {
-	/*cursor: pointer;*/
 	background-color: #57BC90; 
   }
 
+ #projects {
+	  background-color: #CCCBC6;	 
+ }
+
+ 
+  figure img:hover {
+	  border: .3em solid #FFFF99;
+  }
+
+  img.longpic:hover {
+	background-color: #000;
+}
+
+figure img:hover {
+	background-color: #000;
+
+}
+  .projectsect {
+	background-color: #CCCBC6;
+	clear: both;
+	height: 900px;
+	width: 100%;
+	margin: 0px auto;
+	
+}
  .introsect:hover {
-	/*cursor: pointer;*/
 	background-color: #ECC5C0;
   }
 
-
-/*section.introsect {
-	/*width: 100%;
-	background-color: #A5B9B9;
-	height: 250px;
-}*/	
-
-/*.introsect img {
-	width: 107px;
-	height: 120px;
-}*/
-
 .introsect {
-	background-color: #CCC8C6; /*#EFD9C1; /*#A5B9B9;*/
+	background-color: #CCC8C6;
 	height: 200px;
 }
 .toTop {
