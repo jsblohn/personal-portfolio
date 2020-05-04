@@ -28,6 +28,10 @@ h2 {
 	padding-top: 20px;
 }
 
+h5 {
+  margin-right: 10%;
+}
+
 table {
 	width: 80%;
 	margin-left: auto;
@@ -57,8 +61,8 @@ small {
 
 nav {
 	text-align: right;
-	text-shadow: -.5px .5px 0 #000;  
-	font-size: .75em;
+	text-shadow: -.5px .5px 0 #000;
+	font-size: .8em;
 }
 
 nav a {
@@ -68,9 +72,8 @@ nav a {
  figure {
 	display: block;
 	text-align: center;
-	height: 200px;
-	background-color: #A9B7C0;
-	
+ 	background-color: inherit;
+
 }
 
 .yearcol {
@@ -119,26 +122,38 @@ figure img.widepic {
 	height: 244px;
 }
 
-figure img.normalpic {
-	width: 158px;
-	height: 78px;
-
+figure img.diagramSize {
+	width: 50%;
+  height: 50%;
+  background-color: inherit;
 }
 
-figure img.today {
-	width: 320px;
-	height: 180px;
+.carousel-item figure{
+  background-color: inherit;
+}
+
+figure img.normalpic {
+	max-height: 50%;
+  max-width: 50%;
+  margin: 0px auto;
 }
 
 figure img.longpic {
-	width: 158px;
-	height: 138px;
+  max-width: 50%;
+  max-height: 28rem;
+  margin: 0px auto;
+ }
 
-}
+/*.carousel-item {
+  max-height: 200px;
+  max-width: 200px;
+  margin: 0px auto;
 
-figure img.shoppic {
-	width: 180px;
-	height: 320px;
+}*/
+
+.carousel-item2 {
+  max-height: 100%;
+  max-width: 100%;
 }
 
 p, tr, figcaption{
@@ -153,7 +168,9 @@ p, table {
 figcaption {
 	font-family: 'Oswald', Verdana, Arial, sans-serif;
 	font-weight: 400;
-	text-shadow: -.5px .5px 0 #000;
+  text-shadow: -.5px .5px 0 #000;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 figure img {
@@ -205,10 +222,9 @@ header {
 }
 
 .imagecolumn {
-	width: 20%;
-	float: left;
 	margin: 10px auto;
-	padding-top: 20px;
+  padding-top: 20px;
+  background-color: inherit;
 }
 
 .headerText {
@@ -217,7 +233,12 @@ header {
 	margin-right: 20px;
 }
 
-#emphist {
+.carousel-control-prev, .carousel-control-next {
+ display: block;
+ margin-top: 5rem;
+}
+
+#emphist, #diagrams {
 	background-color: #C7D8C6;
 }
 
@@ -230,37 +251,45 @@ header {
 }
 
 #emphist:hover {
-	background-color: #57BC90; 
+	background-color: #57BC90;
   }
 
  #projects {
 	  background-color: #A9B7C0;
  }
- 
-  figure img:hover {
-	  border: .3em solid #FFFF99;
-  }
 
-  img.longpic:hover {
-	background-color: #000;
+figure img:hover {
+ border: .3em solid #FFFF99;
 }
 
-  .projectsect {
-	background-color: #A9B7C0;
-	clear: both;
-	height: 200px;
-	width: 100%;
+.div2 {
+  margin: auto;
+  padding: 0;
+  background-color: inherit;
+}
+
+  div.projectsect {
+  height: 50rem;
+ 	width: 50rem;
 	margin: 0px auto;
-	
+
 }
- .introsect:hover {
+
+/*#innerCarousel {
+  width: 200px;
+  height: 220px;
+  margin: 0px auto;
+}*/
+
+.introsect:hover {
 	background-color: #ECC5C0;
-  }
+}
 
 .introsect {
 	background-color: #CCC8C6;
 	height: 200px;
 }
+
 .toTop {
 	text-align: center;
 }
@@ -285,4 +314,8 @@ header {
 
 .extrapadding {
 	padding-bottom: 50px;
+}
+
+.inheritBack {
+  background-color: inherit;
 }
