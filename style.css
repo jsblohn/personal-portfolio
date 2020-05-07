@@ -123,8 +123,7 @@ figure img.widepic {
 }
 
 figure img.diagramSize {
-	width: 50%;
-  height: 50%;
+  margin: 0 auto;
   background-color: inherit;
 }
 
@@ -143,13 +142,6 @@ figure img.longpic {
   max-height: 28rem;
   margin: 0px auto;
  }
-
-/*.carousel-item {
-  max-height: 200px;
-  max-width: 200px;
-  margin: 0px auto;
-
-}*/
 
 .carousel-item2 {
   max-height: 100%;
@@ -274,12 +266,6 @@ figure img:hover {
 	margin: 0px auto;
 
 }
-
-/*#innerCarousel {
-  width: 200px;
-  height: 220px;
-  margin: 0px auto;
-}*/
 
 .introsect:hover {
 	background-color: #ECC5C0;
