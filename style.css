@@ -250,9 +250,13 @@ header {
 	  background-color: #A9B7C0;
  }
 
-figure img:hover {
+figure img:hover, figure img.round:hover {
  border: .3em solid #FFFF99;
 }
+
+figure img.round {
+  border: none;
+ }
 
 .div2 {
   margin: auto;
