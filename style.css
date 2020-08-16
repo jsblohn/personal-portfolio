@@ -310,7 +310,8 @@ figure img.round {
   background-color: inherit;
 }
 
-.card-body {display: flex;
+.card-body {
+  display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #C7D8C6;
