@@ -137,6 +137,12 @@ figure img.normalpic {
   margin: 0px auto;
 }
 
+/*figure img.normalpic2 {
+	max-height: 50%;
+  max-width: 33%;
+
+}*/
+
 figure img.longpic {
   max-width: 50%;
   max-height: 28rem;
