@@ -17,7 +17,8 @@ h1 {
 	font-weight: 500;
 }
 
-h3 {width: 80%;}
+h3 {width: 80%;} /* remove when carousel updated */
+.introH3 {width: 80%;}
 
 h2, h3 {
 	font-family: 'Open Sans', Verdana, Arial, sans-serif;
@@ -321,4 +322,13 @@ figure img.round {
   flex-direction: column;
   align-items: center;
   background-color: #C7D8C6;
+}
+
+.div3 {
+  height: 300px;
+  border-bottom: 50px;
+}
+
+.col-3 {
+  margin-top: 30px;
 }
